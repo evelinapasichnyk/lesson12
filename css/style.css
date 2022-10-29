@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    background: url(../img/Screenshot_1.png) 0 0 / cover no-repeat;
+    font-family: 'Island Moments';
+    font-size: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.header{
+    background-color: grey;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    font-size: 77px;
+}
+.header:hover{
+    opacity: 1;
+}
+img{
+    max-width: 300px;
+    max-height: 300px;
+}
+p{
+    text-shadow: 10px 10px 5px black;
+}
+.transform__translate, 
+.transform__backface,
+.transform__scale,
+.transform__rotate,
+.transform__translate3d,
+.transform__rotate3d,
+.transform__scale3d,
+.transform__skew,
+.transform__matrix{
+    background-color: dimgrey;
+    opacity: 0.6;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 22px;
+}
+.transform__translate:hover{
+    opacity: 1;
+}
+.transform__image{
+    transform: translate(30px,30px);
+}
+
+
+.transform__scale:hover{
+    opacity: 1;
+}
+
+.transform__image2{
+    scale: 0.5;
+}
+.transform__rotate:hover{
+    opacity: 1;
+}
+.transform__image3{
+    transform: rotate(17deg);
+}
+
+
+.transform__rotate3d:hover{
+    opacity: 1;
+}
+.transform__translate3d:hover{
+    opacity: 1;
+}
+.transform__scale3d:hover{
+    opacity: 1;
+}
+
+.transform__scale{
+    position: absolute;
+    left: 450px;
+    top: 98px;
+}
+
+.transform__rotate{
+    position: absolute;
+    left: 900px;
+    top: 98px;
+}
+.transform__image4{
+    transform: translate3d(17px, 22px, 7px);
+}
+.transform__scale3d{
+    position: absolute;
+    top: 420px;
+    left: 450px;
+}
+.transform__image5{
+    transform: scale3d(0.8,0.5,0.9);
+}
+
+.transform__rotate3d{
+    position: absolute;
+    left: 900px;
+    top: 420px;
+}
+
+.transform__image6{
+    transform: rotate3d(2,2,2,-32deg);
+}
+
+.transform__skew:hover{
+    opacity: 1;
+}
+
+.transform__image7{
+    transform: skew(11deg, 37deg);
+}
+
+.transform__matrix:hover{
+    opacity: 1;
+}
+
+.transform__matrix{
+    position: absolute;
+    top: 740px;
+    left: 450px;
+}
+
+.transform__backface{
+    position: absolute;
+    left: 900px;
+    top: 740px;
+}
+
+.transform__backface:hover{
+    opacity: 1;
+}
+.transform__image9{
+    backface-visibility: visible;
+}
